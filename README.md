@@ -39,7 +39,7 @@ This project is a web server built using Node.js and Express.js that used MongoD
 
 ### 3. Login Testing
 - Verified that users can log in with the correct email and password and receive a valid JWT token in their cookies.
-- Logging in with incorrect credentials would lead to error messages are displayed and no token is issued.
+- Logging in with incorrect credentials would lead to error messages being displayed and no token is issued.
 - Verified that tokens expire after 30 minutes of inactivity and automatically log out the user.
 
 ### 4. Profile Management
