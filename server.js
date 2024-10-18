@@ -178,19 +178,19 @@ app.get("/profile", async(req,res) => {
             <html>
                 <style>
                     .custom-button {
-                        display: inline-block;              /* Makes it behave like a button */
-                        padding: 5px 2px;                 /* Padding for button size */
-                        font-size: 16px;                    /* Font size similar to a default button */
-                        font-family: Arial, sans-serif;     /* Default button font style */
-                        color: #fff;                        /* White text color */
-                        background-color: #007bff;          /* Button background color (blue) */
-                        border: none;                       /* No border */
-                        border-radius: 4px;                 /* Rounded corners like a default button */
-                        cursor: pointer;                    /* Pointer cursor on hover */
-                        text-align: center;                 /* Center the text inside the button */
-                        text-decoration: none;              /* Remove the underline */
-                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-                        transition: background-color 0.3s;  /* Smooth transition for hover effect */
+                        display: inline-block;              
+                        padding: 5px 2px;                 
+                        font-size: 16px;                    
+                        font-family: Arial, sans-serif;     
+                        color: #fff;                        
+                        background-color: #007bff;          
+                        border: none;                       
+                        border-radius: 4px;                 
+                        cursor: pointer;                    
+                        text-align: center;                 
+                        text-decoration: none;              
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+                        transition: background-color 0.3s;  
                     }
                 </style>
                 <body>
